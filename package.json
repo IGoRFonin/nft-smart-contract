@@ -1,18 +1,24 @@
 {
-  "name": "ReplitReactjsProject",
-  "version": "0.0.1",
+  "name": "epic-nfts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "serve": "vite preview"
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^1.0.5",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "@nomiclabs/hardhat-ethers": "^2.2.1",
+    "chai": "^4.3.7",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.12.4"
   },
   "dependencies": {
-    "@types/react": "^17.0.13",
-    "@types/react-dom": "^17.0.8",
-    "ethers": "^5.5.2",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "vite": "^3.0.4",
-    "@vitejs/plugin-react": "^2.0.0"
+    "@openzeppelin/contracts": "^4.8.0",
+    "dotenv": "^16.0.3"
   }
 }

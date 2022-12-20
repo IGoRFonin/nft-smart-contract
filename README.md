@@ -1,13 +1,13 @@
-## Running React on Repl.it
+# NFT Simple Smart Contract
 
-[React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
+Project with NFT smart contract and frontend for it.
 
-[Vite](https://vitejs.dev/) is a blazing fast frontend build tool that includes features like Hot Module Reloading (HMR), optimized builds, and TypeScript support out of the box.
+Try running some of the following tasks:
 
-Using the two in conjunction is one of the fastest ways to build a web app.
+Preparation: 
+create `.env` file from `.env.dist` and add your ENV params.
 
-### Getting Started
-- Hit run
-- Edit [App.jsx](#src/App.jsx) and watch it live update!
-
-By default, Replit runs the `dev` script, but you can configure it by changing the `run` field in the `.replit` file.
+Deploy contract to blockchain:
+```shell
+npx hardhat run scripts/deploy.js --network goerli
+```
