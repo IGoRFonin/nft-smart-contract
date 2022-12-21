@@ -1,3 +1,4 @@
+require("@nomiclabs/hardhat-etherscan");
 require("@nomicfoundation/hardhat-toolbox");
 require("dotenv").config();
 
@@ -9,5 +10,8 @@ module.exports = {
       url: process.env.QUICKNODE_API_KEY_URL,
       accounts: [process.env.GOERLI_PRIVATE_KEY]
     }
+  },
+  etherscan: {
+    apiKey: process.env.ETHERSCAN_API_KEY_URL
   }
 };
